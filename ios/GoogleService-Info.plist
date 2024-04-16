@@ -30,5 +30,16 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:632133977140:ios:032e86817d06694456b661</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow access to the location for distance calculation</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow access to the location for distance calculation</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow access to camera for profile picture</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow access to photo library for profile picture</string>
+	<key>NSAppTransportSecurity</key>
 </dict>
+	<key>NSAllowsArbitraryLoads</key>
+    <true/>
 </plist>

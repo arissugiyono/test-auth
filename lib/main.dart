@@ -6,11 +6,12 @@ import 'package:testapp/screens/wrapper.dart';
 import 'package:testapp/services/auth.dart';
 import 'package:testapp/state_util.dart';
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
 
-  (const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
